@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import "mokku-ui-library/styles.css";
-import { ThemeProvider } from "./theme-provider";
+import 'mokku-ui-library/styles.css'
+import { ThemeProvider } from './theme-provider'
 
 const Providers = ({ children }: { children: React.ReactNode }) => {
 	return (
@@ -10,7 +10,7 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
 				{children}
 			</ThemeProvider>
 		</>
-	);
-};
+	)
+}
 
-export default Providers;
+export default Providers
